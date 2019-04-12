@@ -1,4 +1,41 @@
 /* CSS property of Iulius (c) 2019 */
 body {
     font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    line-height: 0;
+}
+
+.hero {
+    position: relative;
+    display: block;
+    margin: auto;
+}
+
+.copy {
+    font-size: 40pt;
+    text-align: center;
+}
+
+.cta {
+    font-size: 20pt;
+    text-align: center;
+}
+
+/* Width > Height */
+@media (min-aspect-ratio: 1/1) {
+    .hero {
+        height: 100vh;
+    }
+}
+/* Width < Height */
+@media (max-aspect-ratio: 1/1) {
+    .hero {
+        width: 100vw;
+    }
 }
