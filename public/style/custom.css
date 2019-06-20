@@ -11,6 +11,21 @@ h1 {
     line-height: 0;
 }
 
+table {
+    width: 100vw;
+}
+
+td {
+    width: 33%;
+    font-size: 4vmin;
+    text-align: center;
+    padding: 1vmin;
+}
+
+.fas {
+    font-size: 10vmin;
+}
+
 .hero {
     position: relative;
     display: block;
