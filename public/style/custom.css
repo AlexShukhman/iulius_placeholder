@@ -38,8 +38,17 @@ td {
 }
 
 .cta {
-    font-size: 20pt;
     text-align: center;
+}
+
+.cta_button {
+    color: white;
+    background-color: #25256C;
+    outline: none;
+    border-radius: 1vmin;
+    border: none;
+    height: 8vmin;
+    font-size: 6vmin;
 }
 
 /* Width > Height */
